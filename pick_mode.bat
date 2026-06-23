@@ -17,7 +17,7 @@ $RCON_PASSWORD = "alroker"
 # writes "current_mode.cfg" here so the selected mode persists across
 # chapters (server.cfg re-execs `current_mode` on every map load).
 # Leave "" to use the cfg\ folder next to this script.
-$SERVER_CFG_DIR = "C:\path\to\left4dead2\cfg"
+$SERVER_CFG_DIR = "C:\L4D2\left4dead2\cfg"
 # ─────────────────────────────────────────────────────────
 
 $SCRIPT_DIR = Split-Path -Parent $MyInvocation.MyCommand.Path
