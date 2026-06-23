@@ -2,7 +2,7 @@ param([Parameter(ValueFromRemainingArguments=$true)][string[]]$QueryParts = @())
 $Query = ($QueryParts -join " ").Trim()
 
 # ── Config ───────────────────────────────────────────────
-$SERVER_IP     = "127.0.0.1"
+$SERVER_IP     = "192.168.1.232"
 $SERVER_PORT   = 27015
 $RCON_PASSWORD = "alroker"
 
